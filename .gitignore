@@ -1,3 +1,17 @@
+### This Project Specific Files ###
+
+# config for server
+/config.json
+
+# config for deploy
+/deploy.config.sh
+
+# temporary files
+backups
+testing
+examples
+notes
+
 ###Node###
 
 # Logs
@@ -62,7 +76,6 @@ typings/
 # next.js build output
 .next
 
-
 ###JetBrains###
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
@@ -111,7 +124,6 @@ atlassian-ide-plugin.xml
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 
-
 ###SublimeText###
 
 # cache files for sublime text
@@ -129,14 +141,12 @@ com_crashlytics_export_strings.xml
 # sftp configuration file
 sftp-config.json
 
-
 ###Linux###
 
 *~
 
 # KDE directory preferences
 .directory
-
 
 ###Windows###
 
@@ -181,3 +191,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+

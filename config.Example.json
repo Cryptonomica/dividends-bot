@@ -1,0 +1,28 @@
+{
+  "botAccountPrivateKey": "",
+  "botAccountAddress": "",
+  "cryptoSharesSmartContractAddress": "",
+  "infuraProjectId": "",
+  "infuraProjectSecret": "",
+  "networkName": {
+    "1": "MainNet",
+    "3": "Ropsten"
+  },
+  "infuraHost": {
+    "1": "mainnet.infura.io",
+    "3": "ropsten.infura.io"
+  },
+  "infuraEndpoint": {
+    "1": "mainnet.infura.io/v3/...",
+    "3": "ropsten.infura.io/v3/..."
+  },
+  "etherscanApiLink": {
+    "1": "http://api.etherscan.io/",
+    "3": "https://api-ropsten.etherscan.io/"
+  },
+  "etherscanApiKeyToken": "",
+  "contractAddress": {
+    "1": "",
+    "3": ""
+  }
+}
