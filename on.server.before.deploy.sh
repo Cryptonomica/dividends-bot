@@ -18,7 +18,9 @@ fi
 rm -fr ${HOME}/server && mkdir -p ${HOME}/server/logs
 
 # log
-echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+#echo "adding to log: ["$(date)"]" ${USER}": "${0}
+#echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+echo "["$(date)"] "${USER}":" ${0} >> ${HOME}/deployment.log
 
 echo "< on.server.before.deploy.sh finished"
 echo

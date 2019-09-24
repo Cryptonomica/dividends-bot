@@ -1,7 +1,6 @@
 {
   "botAccountPrivateKey": "",
   "botAccountAddress": "",
-  "cryptoSharesSmartContractAddress": "",
   "infuraProjectId": "",
   "infuraProjectSecret": "",
   "networkName": {

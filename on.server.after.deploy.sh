@@ -19,6 +19,8 @@ pm2 start app.js --name App
 
 # log
 cd
-echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+#echo "adding to log: ["$(date)"]" ${USER}": "${0}
+#echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+echo "["$(date)"] "${USER}":" ${0} >> ${HOME}/deployment.log
 
 echo "< on.server.after.deploy.sh finished"

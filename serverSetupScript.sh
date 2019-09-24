@@ -23,7 +23,6 @@ sudo npm install pm2 -g
 #[PM2] Remove init script via:
 #$ pm2 unstartup systemd
 
-
 #Make pm2 auto-boot at server restart:
 pm2 startup
 
@@ -36,4 +35,6 @@ if [ ! -d server/logs ]; then
 fi
 
 # log
-echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+#echo "adding to log: ["$(date)"]" ${USER}":" ${0}
+#echo "["$(date)"] "${USER}": "${BASH_SOURCE} >> ${HOME}/deployment.log
+echo "["$(date)"] "${USER}":" ${0} >> ${HOME}/deployment.log

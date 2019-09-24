@@ -9,12 +9,9 @@ local Parity node:
 
 'use strict';
 
-const appVersion = "1.0.0";
+const appVersion = "1.1.0";
 
 /* ------ Initialize required packages ---------------- */
-
-const net = require('net');
-const os = require('os');
 
 // https://log4js-node.github.io/log4js-node/
 // https://github.com/log4js-node/log4js-node
@@ -97,6 +94,8 @@ const web3 = new Web3(infuraHttp);
 
 /* Local: */
 
+// const net = require('net');
+// const os = require('os');
 // const localHttp = new Web3.providers.HttpProvider('http://localhost:8545');
 // const localWebsocket = new Web3.providers.WebsocketProvider('ws://localhost:8546');
 // const localParityIPC = new Web3.providers.IpcProvider(os.homedir() + '/.local/share/io.parity.ethereum/jsonrpc.ipc', net);
@@ -432,7 +431,6 @@ function payDividendsToNext(contractAddress, contractNumber, feeForTxInWei) {
                     contractNumber,
                     ", tx hash:",
                     result.transactionHash
-
                 );
 
                 // logger.info(result);
